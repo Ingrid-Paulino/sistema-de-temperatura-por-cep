@@ -1,4 +1,5 @@
-FROM golang:1.21 as build
+#imagem do golang
+FROM golang:1.24 as build
 WORKDIR /app
 # copia todo o projeto para dentro da imagem
 COPY . .

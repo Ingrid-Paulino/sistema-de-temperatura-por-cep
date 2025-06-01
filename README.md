@@ -35,3 +35,16 @@ Entrega:
 - Testes automatizados demonstrando o funcionamento.
 - Utilize docker/docker-compose para que possamos realizar os testes de sua aplicação.
 - Deploy realizado no Google Cloud Run (free tier) e endereço ativo para ser acessado.
+
+## Comandos para rodar o projeto
+```
+  1. go run main.go
+  2. No navegador, acesse o endereço: http://localhost:8080/
+  ou
+  3. No terminal, acesse curl http://localhost:8080/
+```
+
+## Aplicação em execução no gcloud run
+```
+  Acesse o endereço: https://sistema-de-temperatura-por-cep-761592947130.southamerica-east1.run.app
+```
